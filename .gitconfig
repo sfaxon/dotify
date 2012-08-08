@@ -1,0 +1,15 @@
+[user]
+	name = Seth Faxon
+	email = seth.faxon@gmail.com
+[color]
+	diff = auto
+	status = auto
+	branch = auto
+[core]
+	excludesfile = "/Users/sfaxon/.gitexcludes"
+[alias]
+	st = status
+	ci = commit
+	br = branch
+	co = checkout
+	df = diff
