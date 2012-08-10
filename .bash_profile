@@ -4,6 +4,7 @@ export PATH=/usr/local/bin:$PATH
 export EDITOR="/usr/local/bin/mate -w"
 export BUNDLER_EDITOR="/usr/local/bin/mate -w"
 alias t='/usr/local/bin/mate .'
+alias s='/usr/local/bin/subl .'
 
 # load in all the aliase servers
 alias web01='ssh 66.150.160.125'
