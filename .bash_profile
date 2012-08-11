@@ -6,31 +6,33 @@ export BUNDLER_EDITOR="/usr/local/bin/mate -w"
 alias t='/usr/local/bin/mate .'
 alias s='/usr/local/bin/subl .'
 
-# load in all the aliase servers
-alias web01='ssh 66.150.160.125'
-alias web02='ssh -t 66.150.160.125 ssh 10.80.7.22'
-alias web11='ssh -t 66.150.160.125 ssh 10.80.7.26'
-alias web12='ssh -t 66.150.160.125 ssh 10.80.7.27'
-alias web21='ssh 66.150.160.76'
-alias web22='ssh 66.150.160.50'
-alias web31='ssh 70.42.161.79'
-alias web32='ssh -t 66.150.160.76 ssh wa1mhcweb32'
-alias web41='ssh 66.150.174.17'
-alias web42='ssh -t 66.150.174.17 ssh 10.80.7.25'
-alias web51='ssh 66.150.174.167'
+alias go_red="osascript -e 'tell application \"Terminal\" to set current settings of selected tab of window 1 to (first settings set whose name is \"Red Sands\")'"
 
-alias mysql01='ssh -t 66.150.160.76 ssh wa1mhcmysql01'
-alias mysql02='ssh -t 66.150.160.76 ssh wa1mhcmysql02'
-alias mysql03='ssh -t 66.150.160.76 ssh wa1mhcmysql03'
-alias mysql04='ssh -t 66.150.160.76 ssh wa1mhcmysql04'
-alias mt01='ssh -t 66.150.160.76 ssh 10.80.7.29'
-alias mt02='ssh -t 66.150.160.76 ssh 10.80.7.29'
+# load in all the aliase servers
+alias web01="go_red; ssh 66.150.160.125"
+alias web02='go_red; ssh -t 66.150.160.125 ssh 10.80.7.22'
+alias web11='go_red; ssh -t 66.150.160.125 ssh 10.80.7.26'
+alias web12='go_red; ssh -t 66.150.160.125 ssh 10.80.7.27'
+alias web21='go_red; ssh 66.150.160.76'
+alias web22='go_red; ssh 66.150.160.50'
+alias web31='go_red; ssh 70.42.161.79'
+alias web32='go_red; ssh -t 66.150.160.76 ssh wa1mhcweb32'
+alias web41='go_red; ssh 66.150.174.17'
+alias web42='go_red; ssh -t 66.150.174.17 ssh 10.80.7.25'
+alias web51='go_red; ssh 66.150.174.167'
+
+alias mysql01='go_red; ssh -t 66.150.160.76 ssh wa1mhcmysql01'
+alias mysql02='go_red; ssh -t 66.150.160.76 ssh wa1mhcmysql02'
+alias mysql03='go_red; ssh -t 66.150.160.76 ssh wa1mhcmysql03'
+alias mysql04='go_red; ssh -t 66.150.160.76 ssh wa1mhcmysql04'
+alias mt01='go_red; ssh -t 66.150.160.76 ssh 10.80.7.29'
+alias mt02='go_red; ssh -t 66.150.160.76 ssh 10.80.7.29'
 alias solr01=mt01
 
-alias ldap01='ssh -t 66.150.160.76 ssh 10.80.7.24'
+alias ldap01='go_red; ssh -t 66.150.160.76 ssh 10.80.7.24'
 
-alias sf='ssh faxon.org'
+alias sf='go_red; ssh faxon.org'
 
-alias bb01='ssh deploy@67.214.214.138'
+alias bb01='go_red; ssh deploy@67.214.214.138'
 
-alias st01='ssh 66.150.160.52'
+alias st01='go_red; ssh 66.150.160.52'
