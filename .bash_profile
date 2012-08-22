@@ -21,6 +21,8 @@ alias web41='go_red; ssh 66.150.174.17'
 alias web42='go_red; ssh -t 66.150.174.17 ssh 10.80.7.25'
 alias web51='go_red; ssh 66.150.174.167'
 
+alias pg01='go_red; ssh -t 66.150.160.125 ssh 10.80.7.32'
+
 alias mysql01='go_red; ssh -t 66.150.160.76 ssh wa1mhcmysql01'
 alias mysql02='go_red; ssh -t 66.150.160.76 ssh wa1mhcmysql02'
 alias mysql03='go_red; ssh -t 66.150.160.76 ssh wa1mhcmysql03'
