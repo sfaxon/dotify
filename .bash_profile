@@ -6,6 +6,12 @@ export BUNDLER_EDITOR="/usr/local/bin/mate -w"
 alias t='/usr/local/bin/mate .'
 alias s='/usr/local/bin/subl .'
 
+parse_git_branch() {
+  git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/(\1)/'
+}
+# default PS1 is \h:\W \u\$
+PS1="\W\$(parse_git_branch)$ "
+
 alias go_red="osascript -e 'tell application \"Terminal\" to set current settings of selected tab of window 1 to (first settings set whose name is \"Red Sands\")'"
 
 # load in all the aliase servers
