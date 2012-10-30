@@ -38,6 +38,8 @@ alias solr01=mt01
 
 alias ldap01='go_red; ssh 10.80.7.24'
 
+alias job01='go_red; ssh 10.80.7.59'
+
 # personal stuff
 alias sf='go_red; ssh faxon.org'
 
