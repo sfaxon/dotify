@@ -1,6 +1,7 @@
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init - --no-rehash)"
-export PATH=/usr/local/bin:$PATH
+export PATH=.bundle/binstubs:/usr/local/bin:$PATH
+export PATH="$HOME/.rbenv/plugins/ruby-build/bin:$PATH"
 export EDITOR="/usr/local/bin/mate -w"
 export BUNDLER_EDITOR="/usr/local/bin/mate -w"
 alias t='/usr/local/bin/mate .'
