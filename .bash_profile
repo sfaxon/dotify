@@ -45,4 +45,6 @@ alias sf='go_red; ssh faxon.org'
 
 alias bb01='go_red; ssh deploy@67.214.214.138'
 
-alias st01='go_red; ssh 66.150.160.52'
+alias st01='go_red; ssh 66.150.174.78'
+
+alias ci01='go_red; ssh 10.80.7.12'
