@@ -1,11 +1,14 @@
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init - --no-rehash)"
-export PATH=.bundle/binstubs:/usr/local/bin:$PATH
+export PATH=.bundle/binstubs:/usr/local/bin:/usr/local/sbin:$PATH
 export PATH="$HOME/.rbenv/plugins/ruby-build/bin:$PATH"
-export EDITOR="/usr/local/bin/mate -w"
+#export EDITOR="/usr/local/bin/mate -w"
+export EDITOR="/usr/bin/vim"
 export BUNDLER_EDITOR="/usr/local/bin/mate -w"
 alias t='/usr/local/bin/mate .'
 alias s='/usr/local/bin/subl .'
+
+if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 
 parse_git_branch() {
   git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/(\1)/'
