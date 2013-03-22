@@ -23,6 +23,10 @@ alias go_red="osascript -e 'tell application \"Terminal\" to set current setting
 # load in all the aliase servers
 alias web01='go_red; ssh 10.80.7.21'
 alias web02='go_red; ssh 10.80.7.22'
+alias web03='go_red; ssh 10.80.7.31'
+alias web04='go_red; ssh 10.80.7.17'
+alias web05='go_red; ssh 10.80.7.18'
+alias web06='go_red; ssh 10.80.7.30'
 
 alias web11='go_red; ssh 10.80.7.26'
 alias web12='go_red; ssh 10.80.7.27'
