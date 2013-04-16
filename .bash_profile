@@ -6,6 +6,7 @@ export EDITOR="/usr/bin/vim"
 export BUNDLER_EDITOR="/usr/local/bin/mate -w"
 alias t='/usr/local/bin/mate .'
 alias s='/usr/local/bin/subl .'
+alias b='bundle exec'
 
 mkdir -p $HOME/workspace/go
 export GOPATH="$HOME/workspace/go"
