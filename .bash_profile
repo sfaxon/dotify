@@ -2,6 +2,7 @@ export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init - --no-rehash)"
 export PATH=.bundle/binstubs:/usr/local/bin:/usr/local/sbin:$PATH
 export PATH="$HOME/.rbenv/plugins/ruby-build/bin:$PATH"
+export PATH="$HOME/bin:$PATH"
 export EDITOR="/usr/bin/vim"
 export BUNDLER_EDITOR="/usr/local/bin/mate -w"
 alias t='/usr/local/bin/mate .'
@@ -61,3 +62,6 @@ alias st01='go_red; ssh 66.150.174.78'
 alias build01='go_red; ssh 10.80.7.12'
 alias ci01='build01'
 
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"
