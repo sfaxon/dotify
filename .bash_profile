@@ -8,6 +8,8 @@ export BUNDLER_EDITOR="/usr/local/bin/mate -w"
 alias t='/usr/local/bin/mate .'
 alias s='/usr/local/bin/subl .'
 alias b='bundle exec'
+alias ts='tmux list-sessions'
+alias ta='tmux attach-session -t '
 
 mkdir -p $HOME/workspace/go
 export GOPATH="$HOME/workspace/go"
