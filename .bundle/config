@@ -1,3 +1,4 @@
----
-BUNDLE_PATH: .bundle
+--- 
 BUNDLE_BIN: .bundle/binstubs
+BUNDLE_PATH: .bundle
+BUNDLE_BUILD__MYSQL2: --with-mysql-config=/usr/local/Cellar/mysql/5.6.10/bin/mysql_config
