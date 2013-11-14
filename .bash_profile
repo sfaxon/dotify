@@ -25,7 +25,10 @@ PS1="\W\$(parse_git_branch)$ "
 alias go_red="osascript -e 'tell application \"Terminal\" to set current settings of selected tab of window 1 to (first settings set whose name is \"Red Sands\")'"
 
 # tk
-alias tk='go_red; ssh seth.faxon@vs185193.blueboxgrid.com'
+alias tkweb01='go_red; ssh seth.faxon@vs185193.blueboxgrid.com'
+alias tkst01='go_red; ssh seth.faxon@vs115762.blueboxgrid.com'
+alias tksolr01='go_red; ssh seth.faxon@solr01.c43834.blueboxgrid.com'
+alias tkredis01='go_red; ssh seth.faxon@redis01.c43834.blueboxgrid.com'
 
 # personal stuff
 alias sf='go_red; ssh faxon.org'
